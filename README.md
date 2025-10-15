@@ -9,11 +9,11 @@
 -**shadcn**
 
 ## Instalasi
-2. Install dependencies For Backend:
+1. Install dependencies For Backend:
    ```bash
    go mod download
    go run main.go
-3. Install dependencies For Frontend:
+2. Install dependencies For Frontend:
    ```bash
    -npm install
    -npn run dev
