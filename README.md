@@ -35,24 +35,33 @@ Proyek ini dibuat sebagai **portofolio pribadi**, berfokus pada penerapan konsep
 
 ## ⚙️ Instalasi
 
-### 1️⃣ Jalankan Backend (Golang)
+### 1️. Jalankan Backend (Golang)
 ```bash
 go mod download
 go run main.go
-
-Jalankan Frontend (Next.js)
+```
+### 2. Jalankan Frontend (Next.js)
+```bash
 npm install
 npm run dev
+```
 
-Konfigurasi Environment (.env)
+### 3. Konfigurasi Environment (.env)
+```
 DB_HOST=localhost
 DB_PORT=3306
 DB_NAME=absensi_db
 DB_USER=root
 DB_PASSWORD=your_password
+```
 
-API Documentation
-
-Kamu dapat mengakses dokumentasi lengkap API di Postman:
+### 4. API Documentation
+```
+Dokumentasi lengkap API di Postman:
 https://documenter.getpostman.com/view/31826789/2sB3HqJz1B
+```
 ![demo](./demo.png)
+
+
+
+
